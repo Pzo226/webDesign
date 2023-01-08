@@ -1,0 +1,277 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #555;
+  margin: 0;
+}
+
+header .div1 {
+  display: flex;
+  flex-direction: colum;
+  justify-content: center;
+  font-size: 40px;
+}
+
+header {
+  width: 100%;
+  height: 300px;
+  background-color: #3498db;
+  text-align: center;
+  position: relative;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+header h1 {
+  font-size: 42px;
+  color: #fff;
+  line-height: 230px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+header nav {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+header nav a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  line-height: 1;
+  text-decoration: none;
+}
+a {
+  color: #666;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #BB2C54;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+}
+
+.row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+  margin: 30px;
+  overflow: auto;
+  margin: auto;
+  max-width: 960px;
+  word-wrap: no-wrap;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  padding: 10px 0 0 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+}
+
+nav {
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  float: left;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #ccc;
+  font-size: 16px;
+}
+
+nav a {
+  color: #888;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+
+nav a:hover {
+  color: #BB2C54;
+}
+
+nav li:last-child {
+  margin: 0px;
+  padding: 0px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+
+nav a.attivo {
+  font-weight: bold;
+  color: #333;
+}
+
+#immagine {
+  margin: 10px 0;
+  border-top: 1px solid #E0DACD;
+  border-bottom: 1px solid #E0DACD;
+  padding-bottom: 10px;
+  background: #F6EFDF;
+  float: left;
+  width: 100%;
+  box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+#contenuto {
+  float: left;
+  padding-bottom: 50px;
+}
+
+#contenuto p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+#contenuto h1 {
+  font-size: 22px;
+}
+
+.col {
+  float: left;
+  width: 31.25%; /* 300px / 960px */
+  margin-right: 1.0416666667%; /* 10px / 960px */
+  margin-left: 1.0416666667%; /* 10px / 960px */
+}
+
+footer {
+  color: #999;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+footer p {
+  font-size: 13px;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+}
+
+footer a {
+  color: #666;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+.mobile {
+  display: none;
+}
+
+.tinynav {
+  display: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+hr {
+  background: #fff;
+  height: 2px;
+  border: 0;
+  background-image: -o-linear-gradient(left, #fff, #e6e6e6, #fff);
+  clear: both;
+}
+
+hr:after {
+  content: "";
+  background: #ccc;
+  display: block;
+  height: 1px;
+  background-image: -o-linear-gradient(left, #e6e6e6, #ccc, #e6e6e6);
+}
+
+@media only screen and (max-width: 767px) {
+  .col {
+    float: none;
+    border-bottom: 1px solid #ccc;
+    width: 93.75%; /* 300px / 320px */
+    margin-right: 3.125%; /* 10px / 320px */
+    margin-left: 3.125%; /* 10px / 320px */
+  }
+  .col:last-child {
+    float: none;
+    border-bottom: none;
+  }
+  #logo {
+    text-align: center;
+  }
+  header, #contenuto, footer {
+    width: 93.75%; /* 300px / 320px */
+    margin-right: 3.125%; /* 10px / 320px */
+    margin-left: 3.125%; /* 10px / 320px */
+  }
+  #immagine {
+    box-shadow: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #immagine img {
+    width: auto;
+    max-width: none;
+    height: 300px;
+  }
+  nav {
+    position: relative;
+    top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  nav li {
+    float: none;
+    display: inline-block;
+  }
+  footer p {
+    padding-bottom: 30px;
+  }
+  .mobile {
+    display: inline;
+  }
+  .desktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tinynav {
+    display: block;
+  }
+  #nav {
+    display: none;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  #logo {
+    background: url(http://ciroesposito.com/rwd/rwd-retina.png) no-repeat left top;
+    background-size: 160px 64px;
+    text-indent: -999em;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

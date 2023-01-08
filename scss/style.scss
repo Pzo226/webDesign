@@ -1,0 +1,187 @@
+// Variables 
+$textColor: #566270;
+$backColor: #c9beec;
+$mainFamily: sans-serif; 
+$boxColor: #e0e3da;
+$white: #fff;
+$divBg: #eff0fa;
+
+body {
+	margin: 2rem 2px;
+	margin-inline-start: 6rem;
+    margin-inline-end: 7rem;
+	background-color: $backColor;
+	display: grid;
+	grid-template-rows: repeat(1, 1fr);
+	align-items: center;
+
+}
+
+section {
+	
+	color: $textColor;
+	//text-align is just to center text 
+	font-size: 66.3419px;;
+	background-color: $divBg;
+	display: inline-table;
+	height: 150px;
+	width: 100%;
+	align-items: center;
+    position: relative;
+	background-size: contain;
+	
+
+	
+}
+.info {
+	
+	display: grid;
+	color: $textColor;
+	//text-align is just to center text 
+
+	
+	background-color: #ffffff;
+	
+	
+	
+	
+}
+
+h1 {
+  font-size: 33.171px;
+	color: $textColor;
+	position: relative;
+	float: rigtht; 
+}
+
+h3 {
+   font-size: 23.121px;
+   font-family: $mainFamily;
+   color: $textColor;
+   font-weight: 500;
+}
+
+#total {
+	display: flex;
+	float: right;
+	right: 20px;
+}
+
+
+header{
+	display: grid;
+	color: $textColor;
+	//text-align is just to center text 
+  	text-align: center;
+	font-size: 66.3419px;;
+	background-color: $boxColor;
+	padding: 25px;
+	height: 150px;
+	width: auto;
+	align-items: center;
+    justify-content: center;
+	grid-template-columns: auto auto auto;
+  	
+	
+	img {
+		position: relative;
+		right: 300px;
+  		padding: 20px;
+  		font-size: 30px;
+  		float: right;
+	}
+
+	
+
+	.item1 {
+		
+		display: flex;
+		justify-content: grid;
+  		text-align: center;
+		  color: $textColor;
+		  //text-align is just to center text 
+			text-align: center;
+		  font-size: 66.3419px;;
+		  font-family:  impact;
+		  background-color: $boxColor;
+		  align-items: center;
+		  justify-content: center;
+	}
+}
+
+#second {
+	height: 150px;
+    aspect-ratio: auto 280 / 150;
+    width: auto;
+	position: relative;
+	float: left;
+	}
+
+
+// h1 inbetween sections 
+
+#end {
+	text-decoration: underline;
+	text-align: center;
+	background-color: $divBg;
+}
+
+#tots {
+	text-decoration: underline;
+}
+
+#total{
+	position: relative;
+	bottom: 20px;
+}
+
+
+// table data 
+
+td {
+	border: black;
+	border: dotted;
+	font-size: 26.3419px;
+	width: 80%;
+	padding: 19px 2px;
+	font-weight: bold;
+}
+
+table {
+	background-color: $white;
+}
+
+.numbers {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	background-color: $divBg;
+	
+}
+
+#line{
+	text-decoration: underline;
+}
+
+.item2 {
+	display: flex;
+		justify-content: grid;
+  		text-align: center;
+		  color: $textColor;
+		  //text-align is just to center text 
+			text-align: center;
+		  font-size: 40.3419px;;
+		  font-family:  impact;
+		  background-color: $boxColor;
+		  align-items: center;
+		  justify-content: center;
+		  text-decoration: underline;
+}
+
+p {
+	font-size: 23.121px;
+	font-family: $mainFamily;
+	color: $textColor;
+	font-weight: 300;
+}
+

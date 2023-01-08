@@ -1,0 +1,150 @@
+body {
+  margin: 2rem 2px;
+  margin-inline-start: 6rem;
+  margin-inline-end: 7rem;
+  background-color: #c9beec;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  align-items: center;
+}
+
+section {
+  color: #566270;
+  font-size: 66.3419px;
+  background-color: #eff0fa;
+  display: inline-table;
+  height: 150px;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  background-size: contain;
+}
+
+.info {
+  display: grid;
+  color: #566270;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 33.171px;
+  color: #566270;
+  position: relative;
+  float: rigtht;
+}
+
+h3 {
+  font-size: 23.121px;
+  font-family: sans-serif;
+  color: #566270;
+  font-weight: 500;
+}
+
+#total {
+  display: flex;
+  float: right;
+  right: 20px;
+}
+
+header {
+  display: grid;
+  color: #566270;
+  text-align: center;
+  font-size: 66.3419px;
+  background-color: #e0e3da;
+  padding: 25px;
+  height: 150px;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+header img {
+  position: relative;
+  right: 300px;
+  padding: 20px;
+  font-size: 30px;
+  float: right;
+}
+header .item1 {
+  display: flex;
+  justify-content: grid;
+  text-align: center;
+  color: #566270;
+  text-align: center;
+  font-size: 66.3419px;
+  font-family: impact;
+  background-color: #e0e3da;
+  align-items: center;
+  justify-content: center;
+}
+
+#second {
+  height: 150px;
+  aspect-ratio: auto 280/150;
+  width: auto;
+  position: relative;
+  float: left;
+}
+
+#end {
+  text-decoration: underline;
+  text-align: center;
+  background-color: #eff0fa;
+}
+
+#tots {
+  text-decoration: underline;
+}
+
+#total {
+  position: relative;
+  bottom: 20px;
+}
+
+td {
+  border: black;
+  border: dotted;
+  font-size: 26.3419px;
+  width: 80%;
+  padding: 19px 2px;
+  font-weight: bold;
+}
+
+table {
+  background-color: #fff;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eff0fa;
+}
+
+#line {
+  text-decoration: underline;
+}
+
+.item2 {
+  display: flex;
+  justify-content: grid;
+  text-align: center;
+  color: #566270;
+  text-align: center;
+  font-size: 40.3419px;
+  font-family: impact;
+  background-color: #e0e3da;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 23.121px;
+  font-family: sans-serif;
+  color: #566270;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=style.css.map */
