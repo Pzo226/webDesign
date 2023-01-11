@@ -147,4 +147,51 @@ p {
   font-weight: 300;
 }
 
+.section2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #fff;
+  height: auto;
+}
+
+p:nth-of-type(1) {
+  grid-column: 3/4;
+}
+
+p:nth-of-type(2) {
+  grid-column: 3/4;
+}
+
+p:nth-of-type(3) {
+  grid-column: 1/4;
+}
+
+p:nth-of-type(4) {
+  grid-column: 1/4;
+}
+
+p:nth-of-type(5) {
+  grid-column: 1/4;
+}
+
+h1:nth-of-type(1) {
+  grid-column: 3/4;
+}
+
+h1:nth-of-type(2) {
+  grid-column: 3/4;
+}
+
+h1:nth-of-type(3) {
+  grid-column: 1/4;
+}
+
+h1:nth-of-type(4) {
+  grid-column: 1/4;
+}
+
+h1:nth-of-type(5) {
+  grid-column: 1/4;
+}
+
 /*# sourceMappingURL=style.css.map */
